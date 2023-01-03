@@ -1,0 +1,30 @@
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+header .link{
+    margin-left: 70px;
+}
+
+header .timer{
+margin-right: 70px;
+
+}
+
+
+
+.main {
+    height: 800px;
+    width: 800px;
+    margin:auto;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 300px 0;
+
+    background-color: aqua;
+}
