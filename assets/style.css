@@ -1,4 +1,13 @@
 
+#start{
+    background-color: purple;
+    color: white
+}
+#start:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
 
 
 header{
@@ -19,12 +28,13 @@ margin-right: 70px;
 
 
 .main {
-    height: 800px;
+    height: 100px;
     width: 800px;
     margin:auto;
-    margin-bottom: 25px;
+
+    margin-bottom: 250px;
     text-align: center;
-    padding: 300px 0;
+    padding: 2 00px 0;
 
     background-color: aqua;
 }
