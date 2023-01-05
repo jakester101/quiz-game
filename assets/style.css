@@ -36,9 +36,15 @@ margin-right: 70px;
     text-align: center;
     padding: 2 00px 0;
 
-    background-color: aqua;
+
 }
 
 .main ol {
     text-align: left;
+}
+
+.main li:hover {
+    cursor: pointer;
+    color: blue;
+
 }
