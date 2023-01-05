@@ -38,3 +38,7 @@ margin-right: 70px;
 
     background-color: aqua;
 }
+
+.main ol {
+    text-align: left;
+}
