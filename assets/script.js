@@ -83,24 +83,28 @@ function setTime() {
 }
 
 function thatsWrong(){
-
-  if (secondsLeft >=10){
+  var wat = document.querySelector('#correct');
+  console.log(wat.textContent);
+  if (secondsLeft >=10 && wat.textContent !== 'all of the above' && wat.textContent !== 'quotation marks' && wat.textContent !== 'console.log'){
   secondsLeft -= 10;
-  }
-
-  if(pikachu === 0){
-    var footer = document.createElement('h3');
-    footer.setAttribute('id', 'footer');
-    document.getElementById('main1').appendChild(footer);
-    pikachu +=1;
-  }
-
-  var footer = document.getElementById('footer');
-  if(footer.textContent !== 'Incorrect!'){
-    footer.textContent = 'Incorrect!';
-  }
-
+    if(pikachu === 0){
+      var footer = document.createElement('h3');
+      footer.setAttribute('id', 'footer');
+      document.getElementById('main1').appendChild(footer);
+      pikachu +=1;
+    }
+    var footer = document.getElementById('footer');
+    if(footer.textContent !== 'Incorrect!'){
+      footer.textContent = 'Incorrect!';
+    }
   count += 1;
+
+  }
+
+  
+
+  
+
 
 }
 
